@@ -1,0 +1,12 @@
+Q1: Flask is a microframework compared to Django which is a full-stack framework. Flask offers URL routing, request and error handling, templating, cookies and unit testing. While Django supports things like authentication and ORM. What is chosen depends on what is required for the given project. Perhaps you prefer to write your own authentication models etc, then Flask would be the place to go.
+
+Q2: REST - Representational State Transfer, when we say something is RESTful it means that it follows certain constraints. Constraints of REST include: Client-Server separation, Statelessness, Enable Cache, Uniform Interface architecture agnostic, Layered design.
+
+Q3: CRUD - CREATE, which is POST in HTTP, READ - GET in HTTP, UPDATE - PUT in HTTP, DELETE same in HTTP.
+
+Q4: 1xx - Informational, 2xx - Success, 3xx - Redirection, 4xx - Client Error, 5xx - Server Error.
+
+Q5: XSS is a type of injection attack that malicious entities perform on servers etc. Data enters a server through a vulnerability in the server's security. The data is then sent to the 'target' via the servers normal dynamic content generation. A Stored XSS attack is an example of the injected script being persistently stored in the server's database. The attack is served to the target when the server fetches that script from the database. 
+
+Q6: CORS - Cross-origin resource sharing. We will need CORS if a front-end webpage wants to make API-requests to another 'origin', or another website. The server where we are making API calls too must explicitly allow our origin to make calls to it. This will be helpful in our project
+
