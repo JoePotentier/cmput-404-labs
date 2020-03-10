@@ -1,0 +1,12 @@
+Q1: I see a bunny on a black background, when I move it with a click and drag the bunny moves on both panes.
+
+Q2: Typescript has the ability to check types at compile time. Js does not support this. This leads to finding bugs early instead of when users are hitting every bit of your code in every way possible that you may not have thought of.
+
+Q3: Web application bundlers compile all your web apps code to minimize its size and optimize page load speeds. ParcelJs can bundle your code to deliver to the client, it also has hot reload features so when you update a small part of code it will only recompile that file or module. This allows for much faster development because the developer can get near-instant feedback on the changes they make to the codebase.
+
+Q4: Websocket readyStates ------
+ 0. Connection in progress and is not established
+ 1. Connection established and we are ready for messages to be sent and/or rec.
+ 2. The connection is going through the closing handshake
+ 3. The connection has been closed or could not be opened
+
