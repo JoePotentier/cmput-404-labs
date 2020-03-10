@@ -1,0 +1,7 @@
+Q1: Django uses sessions and middleware to hook authentication into request objects, it uses a cookie to maintain a steady-state for the identity of the authenticated user.
+
+Q2: Httpie is using basic auth to pass user credentials to the server.
+
+Q3: Session auth only allows us to connect to one server, otherwise the session token being stored by the server would have to quickly share this session with all other instances of the server. This is not scalable and would not easily allow us to load balance or authenticate with services that we may be hosted on other servers.
+
+Token authentication allows us to share an immutable token with the user that the server can decode and determine the identity of the user that is connecting. The servers only have to share a database which stores users, then they can individually authenticate the user by checking that the decoded token data matches a user account's credentials.
